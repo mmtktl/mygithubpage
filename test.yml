@@ -1,8 +1,0 @@
----
-- name: Test playbook
-  hosts: localhost
-  tasks:
-    - name: First tasks
-      yum:
-        name: httpd
-        state: present
